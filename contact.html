@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Avitsu</title>
+  <meta name="description" content="Contact Avitsu for Minecraft and Hytale worldbuilding projects." />
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="./index.html">Avitsu</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a class="nav-link" href="./index.html">Home</a>
+        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        <a class="nav-link" href="./about.html">About</a>
+        <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));">
+      <article class="card" style="padding:1.1rem;" data-reveal>
+        <h1 style="font-size:.95rem;">Let’s Build Something Memorable</h1>
+        <p class="muted">Available for environment art, prop kits, character concepts, and creature design collaborations.</p>
+        <p><strong>Email:</strong> <a href="mailto:vic3dstudios@gmail.com">vic3dstudios@gmail.com</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com</a></p>
+      </article>
+      <article class="card" style="padding:1.1rem;" data-reveal>
+        <h2 style="font-size:.8rem;">Quick Contact</h2>
+        <form action="mailto:vic3dstudios@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input id="name" name="name" required style="width:100%;margin:.35rem 0 .7rem;padding:.6rem;border-radius:.6rem;border:1px solid var(--border);background:var(--bg-elev);color:var(--text);" />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required rows="5" style="width:100%;margin:.35rem 0 .9rem;padding:.6rem;border-radius:.6rem;border:1px solid var(--border);background:var(--bg-elev);color:var(--text);"></textarea>
+          <button class="btn btn-primary" type="submit">Send via Email</button>
+        </form>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span data-year></span> Avitsu. All rights reserved.</div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

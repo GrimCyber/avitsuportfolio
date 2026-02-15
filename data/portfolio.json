@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Forest Ruin Biome",
+    "category": "Environments",
+    "type": "video",
+    "thumbnail": "./assets/images/environment3.png",
+    "full": "./assets/videos/forestenvironment.mp4",
+    "description": "Atmospheric forest environment with layered depth, ruin storytelling, and pathing readability.",
+    "tags": ["minecraft", "hytale", "environment", "biome"]
+  },
+  {
+    "id": 2,
+    "title": "Windmill Valley",
+    "category": "Environments",
+    "type": "image",
+    "thumbnail": "./assets/images/windmillenvironment.png",
+    "full": "./assets/images/windmillenvironment.png",
+    "description": "Stylized valley hub centered around a landmark windmill silhouette.",
+    "tags": ["landmark", "level art", "worldbuilding"]
+  },
+  {
+    "id": 3,
+    "title": "Fantasy Ruins",
+    "category": "Environments",
+    "type": "image",
+    "thumbnail": "./assets/images/fantasyenvironment.png",
+    "full": "./assets/images/fantasyenvironment.png",
+    "description": "Cinematic ruin scene with strong contrast and exploratory framing.",
+    "tags": ["fantasy", "composition", "ruins"]
+  },
+  {
+    "id": 4,
+    "title": "Industrial Crate",
+    "category": "Props",
+    "type": "image",
+    "thumbnail": "./assets/images/Merchant_Crate.png",
+    "full": "./assets/images/Merchant_Crate.png",
+    "description": "Production-ready crate prop built for modular placement and visual storytelling.",
+    "tags": ["prop", "industrial", "modular"]
+  },
+  {
+    "id": 5,
+    "title": "Air Conditioner Unit",
+    "category": "Props",
+    "type": "image",
+    "thumbnail": "./assets/images/2025_3D_Hytale_Industrial_AirConditioner_Screenshot_0001.png",
+    "full": "./assets/images/2025_3D_Hytale_Industrial_AirConditioner_Screenshot_0001.png",
+    "description": "Urban utility prop designed for rooftop and service corridor sets.",
+    "tags": ["hytale", "hard-surface", "set-dressing"]
+  },
+  {
+    "id": 6,
+    "title": "Chainlink Fence Segment",
+    "category": "Props",
+    "type": "image",
+    "thumbnail": "./assets/images/2025_3D_Hytale_Industrial_ChainlinkFence_01_v01.png",
+    "full": "./assets/images/2025_3D_Hytale_Industrial_ChainlinkFence_01_v01.png",
+    "description": "Efficient modular fence piece to define traversal and boundaries.",
+    "tags": ["prop-kit", "modular", "industrial"]
+  },
+  {
+    "id": 7,
+    "title": "Reaper Concept",
+    "category": "Characters",
+    "type": "image",
+    "thumbnail": "./assets/images/thegrimreaper.png",
+    "full": "./assets/images/thegrimreaper.png",
+    "description": "Dark fantasy character concept emphasizing silhouette and dramatic read.",
+    "tags": ["character", "concept", "fantasy"]
+  },
+  {
+    "id": 8,
+    "title": "Chainsaw Fighter",
+    "category": "Characters",
+    "type": "image",
+    "thumbnail": "./assets/images/chainsawman.png",
+    "full": "./assets/images/chainsawman.png",
+    "description": "High-energy action character pass with aggressive visual rhythm.",
+    "tags": ["action", "character", "stylized"]
+  },
+  {
+    "id": 9,
+    "title": "Sparrow Turnaround",
+    "category": "Animals",
+    "type": "image",
+    "thumbnail": "./assets/gifs/Sparrow_turn.gif",
+    "full": "./assets/gifs/Sparrow_turn.gif",
+    "description": "Compact bird creature turnaround with readable silhouette from all angles.",
+    "tags": ["animal", "turntable", "animation"]
+  },
+  {
+    "id": 10,
+    "title": "Dragon Idle",
+    "category": "Animals",
+    "type": "image",
+    "thumbnail": "./assets/gifs/dragonhollowidle.gif",
+    "full": "./assets/gifs/dragonhollowidle.gif",
+    "description": "Creature idle animation pass tuned for personality and loop quality.",
+    "tags": ["dragon", "creature", "idle"]
+  }
+]
