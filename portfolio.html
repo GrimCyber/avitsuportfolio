@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Avitsu</title>
+  <meta name="description" content="Filter and explore Avitsu's Minecraft and Hytale environments, props, characters, and animal creations." />
+  <meta property="og:title" content="Portfolio | Avitsu" />
+  <meta property="og:description" content="Explore filterable creation categories and open full-resolution previews." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/images/windmillenvironment.png" />
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="./index.html">Avitsu</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a class="nav-link" href="./index.html">Home</a>
+        <a class="nav-link" aria-current="page" href="./portfolio.html">Portfolio</a>
+        <a class="nav-link" href="./about.html">About</a>
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1 style="font-size:1.1rem;">Portfolio</h1>
+        <p class="muted">Filter by category and open each piece for full-resolution details, tags, and context.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:1rem;">
+      <div class="container">
+        <div id="filters" class="filter-row" aria-label="Portfolio category filters"></div>
+        <div id="portfolio-grid" class="grid" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <aside id="portfolio-modal" class="modal" aria-hidden="true" role="dialog" aria-label="Portfolio item preview">
+    <button class="modal-close" data-close aria-label="Close modal">×</button>
+    <div class="modal-content" data-modal-inner></div>
+  </aside>
+
+  <footer class="footer">
+    <div class="container">© <span data-year></span> Avitsu. All rights reserved.</div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/portfolio.js"></script>
+</body>
+</html>

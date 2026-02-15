@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Avitsu – Minecraft & Hytale Worldbuilder</title>
+  <meta name="description" content="Portfolio of Avitsu featuring Minecraft and Hytale environments, props, characters, and animals built with Codex-assisted workflows." />
+  <meta property="og:title" content="Avitsu – Minecraft & Hytale Worldbuilder" />
+  <meta property="og:description" content="Explore professional worldbuilding, environment art, props, and creature design for Minecraft and Hytale." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/images/fantasyenvironment.png" />
+  <meta property="og:url" content="./" />
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="./index.html">Avitsu</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        <a class="nav-link" href="./about.html">About</a>
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Intro banner">
+      <div class="hero-media">
+        <video autoplay loop muted playsinline poster="./assets/images/environment3.png">
+          <source src="./assets/videos/forestenvironment.mp4" type="video/mp4" />
+          <img src="./assets/gifs/dragonhollowidle.gif" alt="Animated fantasy world scene" />
+        </video>
+      </div>
+      <canvas id="particles" aria-hidden="true"></canvas>
+      <div class="container hero-content" data-reveal>
+        <h1>Avitsu – Minecraft &amp; Hytale Worldbuilder</h1>
+        <p class="muted">I create stylized environments, production-ready props, expressive characters, and memorable animals with voxel-inspired pipelines and Codex-assisted workflows.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="./portfolio.html">View Portfolio</a>
+          <a class="btn" href="./contact.html">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid">
+        <article class="card" data-reveal style="padding:1rem;">
+          <h2 style="font-size:.75rem;">Environment Design</h2>
+          <p class="muted">Immersive biome scenes, settlement layouts, and atmospheric world spaces designed for gameplay clarity.</p>
+        </article>
+        <article class="card" data-reveal style="padding:1rem;">
+          <h2 style="font-size:.75rem;">Asset & Prop Crafting</h2>
+          <p class="muted">Narrative props and modular kits built for visual consistency, performance, and stylized realism.</p>
+        </article>
+        <article class="card" data-reveal style="padding:1rem;">
+          <h2 style="font-size:.75rem;">Character & Creature Work</h2>
+          <p class="muted">Playable silhouettes, unique NPC identities, and fauna designed for lore-driven worldbuilding.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span data-year></span> Avitsu. All rights reserved.</div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/particles.js"></script>
+</body>
+</html>
